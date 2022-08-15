@@ -1,4 +1,6 @@
 @import url("https://fonts.googleapis.com/css?family=Open+Sans:300,300italic,600,600italic,700");
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,400;1,400;1,600&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Overpass:ital,wght@0,400;0,600;1,400&display=swap');
 @import url("fontawesome-all.min.css");
 
 /*
@@ -98,10 +100,10 @@ input, select, textarea {
 		}
 
 	body, input, textarea, select {
-		font-family: 'Open Sans', sans-serif;
+		font-family: 'Open sans', sans-serif;
 		line-height: 1.85em;
 		color: #888;
-		font-weight: 300;
+		font-weight: 400;
 		font-size: 13pt;
 	}
 
@@ -166,7 +168,7 @@ input, select, textarea {
 	h1 {
 		font-size: 3.25em;
 		letter-spacing: -0.025em;
-		font-weight: 300;
+		font-weight: 400;
 	}
 
 		h1 strong {
@@ -1665,15 +1667,15 @@ input, select, textarea {
 	input[type="reset"],
 	button,
 	.button {
-		padding:0.3em 1.2em;
-		margin:0 0.3em 0.3em 0;
+		padding:0.6em 1.2em;
+		margin:0 0.6em 0.6em 0;
 		border-radius:2em;
 		box-sizing: border-box;
 		text-decoration:none;
-		font-family:'Roboto',sans-serif;
-		font-weight:300;
+		font-family:'montserrat',sans-serif;
+		font-weight:400;
 		color:#FFFFFF;
-		background-color:#6b1878;
+		background-color:hsl(292, 67%, 40%);
 		text-align:center;
 		transition: all 0.2s;
 		}
@@ -1692,7 +1694,7 @@ input, select, textarea {
 		input[type="reset"]:hover,
 		button:hover,
 		.button:hover {
-			background-color: #43bff0;
+			background-color: hsl(292, 67%, 28%);
 			color: #fff !important;
 		}
 
@@ -1701,7 +1703,7 @@ input, select, textarea {
 		input[type="reset"]:active,
 		button:active,
 		.button:active {
-			background-color: #3BA8D3;
+			background-color: hsl(292, 67%, 25%);
 			top: 1px;
 		}
 
@@ -1948,7 +1950,7 @@ input, select, textarea {
 			text-rendering: auto;
 			line-height: 1;
 			text-transform: none !important;
-			font-family: 'Font Awesome 5 Free';
+			font-family: 'montserrat';
 			font-weight: 400;
 		}
 
