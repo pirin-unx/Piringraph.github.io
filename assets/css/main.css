@@ -1,13 +1,7 @@
 @import url("https://fonts.googleapis.com/css?family=Open+Sans:300,300italic,600,600italic,700");
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,400;1,400;1,600&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Overpass:ital,wght@0,400;0,600;1,400&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Overpass:ital,wght@0,200;0,300;0,400;0,600;1,400&display=swap');
 @import url("fontawesome-all.min.css");
-
-/*
-	Miniport by HTML5 UP
-	html5up.net | @ajlkn
-	Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
-*/
 
 html, body, div, span, applet, object,
 iframe, h1, h2, h3, h4, h5, h6, p, blockquote,
@@ -100,10 +94,10 @@ input, select, textarea {
 		}
 
 	body, input, textarea, select {
-		font-family: 'Open sans', sans-serif;
+		font-family: 'Overpass', sans-serif;
 		line-height: 1.85em;
 		color: #888;
-		font-weight: 400;
+		font-weight: 200;
 		font-size: 13pt;
 	}
 
@@ -166,7 +160,7 @@ input, select, textarea {
 	}
 
 	h1 {
-		font-size: 3.25em;
+		font-size: 3.5em;
 		letter-spacing: -0.025em;
 		font-weight: 400;
 	}
@@ -1672,10 +1666,10 @@ input, select, textarea {
 		border-radius:2em;
 		box-sizing: border-box;
 		text-decoration:none;
-		font-family:'montserrat',sans-serif;
-		font-weight:400;
+		font-family:'Montserrat',sans-serif;
+		font-weight:300;
 		color:#FFFFFF;
-		background-color:hsl(292, 67%, 40%);
+		background-color:#9822aa;
 		text-align:center;
 		transition: all 0.2s;
 		}
@@ -1950,7 +1944,7 @@ input, select, textarea {
 			text-rendering: auto;
 			line-height: 1;
 			text-transform: none !important;
-			font-family: 'montserrat';
+			font-family: 'Font Awesome 5 Brands';
 			font-weight: 400;
 		}
 
