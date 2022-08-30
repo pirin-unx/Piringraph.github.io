@@ -1967,7 +1967,7 @@ input, select, textarea {
 		.icon.featured {
 			color: #EA8A95;
 			display: block;
-			margin: 0 0 1.5em 0;
+			margin: 0 0 -2.5em 0;
 			cursor: default;
 		}
 
